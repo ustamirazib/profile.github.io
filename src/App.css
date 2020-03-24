@@ -1,0 +1,26 @@
+.profile__me {
+  display: block;
+  margin-left: 135%;
+  margin-right: auto;
+  width: 50%;
+}
+
+@media only screen and (max-width: 600px){
+  .profile__me {
+    margin-left: 75%;
+    width: 150px;
+  }
+}
+
+@media only screen and (min-width: 600px){
+  .profile__me {
+    margin-left: 76%;
+    width: 150px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .profile__me {
+    margin-left: 135%;
+  }
+}
